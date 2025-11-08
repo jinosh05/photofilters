@@ -9,18 +9,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  image: ^4.0.17
-  meta: ^1.9.1
-  path_provider: ^2.0.15
-  image_picker: ^0.8.7+5
-  path: ^1.8.3
+  image: ^4.5.4
+  meta: ^1.16.0
+  path_provider: ^2.1.5 
+  image_picker: ^1.2.0
+  path: ^1.9.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  test: ^1.24.1
-  flutter_lints: ^2.0.1
+  test: 
+  flutter_lints: 
+
 flutter:
+  uses-material-design: true
 
   # To add assets to your package, add an assets section, like this:
   # assets:
